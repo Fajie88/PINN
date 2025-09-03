@@ -1,7 +1,7 @@
 # Categorization
 1. “2Dcircle_Laplace_CauchyInverse” refers to the solution of the Cauchy inverse problem governed by the Laplace equation in a two-dimensional circular domain using FSNNs.
 
-COPYRIGHT NOTICE
+# COPYRIGHT NOTICE
 
 © 2025 Fajie Wang, Xin Li. All Rights Reserved.
 
@@ -9,7 +9,7 @@ Redistribution and use in source or binary forms, with or without
 modification, are strictly prohibited unless expressly permitted
 in writing by the copyright holder.
 
-DISCLAIMER:
+# DISCLAIMER:
 
 This code is provided "AS IS," without warranty of any kind, express or implied, including 
 but not limited to the warranties of merchantability, fitness for a particular purpose, and 

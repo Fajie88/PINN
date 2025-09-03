@@ -1,5 +1,5 @@
 # Categorization
-1. “2Dcircle_Laplace_CauchyInverse” refers to the solution of the Cauchy inverse problem governed by the Laplace equation in a two-dimensional circular domain using FSNNs.
+1. “2Dcircle_Laplace_CauchyInverse” refers to the solution of the Cauchy inverse problem governed by the Laplace equation in a two-dimensional circular domain using the FSNNs.
 
 # COPYRIGHT NOTICE
 

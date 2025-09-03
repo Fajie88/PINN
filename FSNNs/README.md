@@ -1,4 +1,5 @@
 # Categorization
+
 1. “2Dcircle_Laplace_CauchyInverse” refers to the solution of the Cauchy inverse problem governed by the Laplace equation in a two-dimensional circular domain using the FSNNs.
 
 # COPYRIGHT NOTICE
@@ -18,6 +19,7 @@ or other liability, whether in an action of contract, tort, or otherwise, arisin
 of or in connection with the code or the use or other dealings in the code.
 
 # References：
+
 [1] https://ww2.mathworks.cn/help/deeplearning/ug/solve-partial-differential-equations-with-lbfgs-method-and-deep-learning.html
 
 [2] F. Wang, X. Li, H. Liu, L. Qiu, X. Yue. An adaptive method of fundamental solutions using physics-informed neural networks. Eng Anal Bound Elem. 2025, 178:106295. https://doi.org/10.1016/j.enganabound.2025.106295

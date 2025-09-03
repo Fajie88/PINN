@@ -22,7 +22,7 @@
 %  https://ww2.mathworks.cn/help/deeplearning/ug/solve-partial-differential-equations-with-lbfgs-method-and-deep-learning.html
 %  --------------------------------------------------------------------------
 %  Qingdao University 
-%  National Engineering Research Center for Intelligent Electrical Vehicle Power System  
+%  College of Mechanical and Electrical Engineering, Qingdao University
 %  E-mail: wfj1218@126.com
 %  ========================================================================
 clear; clc; format long;
@@ -391,4 +391,5 @@ U_S = extractdata(U_S);
 E_S = u_exact(S(:,1),S(:,2));
 E_globalS = (sum(abs(U_S - E_S).^2)./(sum(E_S.^2))).^0.5;
 end
+
 

@@ -1,5 +1,9 @@
 # Categorization in FSNN
 “Laplace_CauchyInverse_2Dcircle” refers to the solution of the Cauchy inverse problem governed by the Laplace equation in a two-dimensional circular domain using the FSNNs.
+
+# Categorization in Teaching
+“PINNs_Laplace” refers to the solution of the Laplace equation in a two-dimensional rectangle domain using the PINNs.
+
 # Copyright Notice
 
 © 2025 Fajie Wang, Xin Li. All Rights Reserved.

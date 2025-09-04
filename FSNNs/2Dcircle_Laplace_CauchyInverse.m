@@ -57,7 +57,7 @@ nbn = 13; % number of source points
 theta = linspace(0, 2*pi-2*pi/nbn, nbn); % source angle
 
 aerf = 0.01; % noise
-a = aerf*100; % for display
+
 u_exact = @(x,y) exp(x).*sin(y); %analytical solution
 du_dx = @(x,y) exp(x).*sin(y);
 du_dy = @(x,y) exp(x).*cos(y);

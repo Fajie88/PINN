@@ -1,3 +1,10 @@
+%  COPYRIGHT NOTICE
+%  © 2025 Fajie Wang, All Rights Reserved.
+%   
+%  Redistribution and use in source or binary forms, with or without
+%  modification, are strictly prohibited unless expressly permitted
+%  in writing by the copyright holder.
+%  
  clc
  clear all
  format long

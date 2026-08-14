@@ -1,0 +1,24 @@
+function [parameters] = Parameters_Initialize(numLayers, numNeurons)
+%  The first layer has two input channels corresponding to the inputs x and y.
+%  The last layer has one output u(x, y).
+% ------------------------------------------------------------------------
+parameters = struct;
+% -------------------- Initialize the parameters for the first layer
+sz = [numNeurons 2];   %  two input channels
+parameters.fc1_Weights = initializeHe(sz,2,'double');
+parameters.fc1_Bias = initializeZeros([numNeurons 1],'double');
+
+for layerNumber = 2 : numLayers - 1   % the remaining intermediate layers
+    name = "fc" + layerNumber;
+
+    sz = [numNeurons numNeurons];
+    numIn = numNeurons;
+    parameters.(name + "_Weights") = initializeHe(sz,numIn,'double');
+    parameters.(name + "_Bias") = initializeZeros([numNeurons 1],'double');
+end
+
+sz = [1 numNeurons];    %  Initialize the parameters for the final layer
+numIn = numNeurons;
+parameters.("fc" + numLayers + "_Weights") = initializeHe(sz,numIn,'double');
+parameters.("fc" + numLayers + "_Bias") = initializeZeros([1 1],'double');
+end

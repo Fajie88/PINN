@@ -2,9 +2,10 @@
 
 1. “Laplace_CauchyInverse_2Dcircle” refers to the solution of the Cauchy inverse problem governed by the Laplace equation in a two-dimensional circular domain using the FSNNs.
 2. “Inverse_HeatSource_2Dcircle” refers to the solution of the Heat Source inverse problem governed by the Poisson equation in a two-dimensional circular domain using the FSNNs.
+3. “Inverse acoustic Cauchy problems” refers to the solution of the Cauchy inverse problem governed by the Helmholtz equation in a two-dimensional Amoeba-like domain using the FSNNs.
 # Copyright Notice
 
-© 2025 Fajie Wang, Xin Li, Xiaowen Shi. All Rights Reserved.
+© 2026 Fajie Wang, Xin Li, Xiaowen Shi, Zhanpeng Yan. All Rights Reserved.
 
 Redistribution and use in source or binary forms, with or without
 modification, are strictly prohibited unless expressly permitted
